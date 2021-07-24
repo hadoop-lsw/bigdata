@@ -1,0 +1,1756 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="99e38f6f-2c9b-41f8-850f-ac874e10366a" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_json_lib_json_lib_jdk15_2_4.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/analyse/advertising/advertising.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/analyse/advertising/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/analyse/advertising/src/main/resources/ad(1).sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/analyse/advertising/src/main/resources/log4j.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/analyse/advertising/src/main/scala/com/atguigu/stream/AdClickRealTimeStat.scala" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/analyse/advertising/src/main/scala/com/atguigu/stream/DataModel.scala" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/analyse/advertising/src/main/scala/com/atguigu/stream/JdbcHelper.scala" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/analyse/analyse.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/analyse/page/page.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/analyse/page/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/analyse/page/src/main/resources/log4j.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/analyse/page/src/main/resources/page.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/analyse/page/src/main/scala/com/atguigu/page/DataModel.scala" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/analyse/page/src/main/scala/com/atguigu/page/PageOneStepConvertRate.scala" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/analyse/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/analyse/product/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/analyse/product/product.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/analyse/product/src/main/resources/product.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/analyse/product/src/main/scala/com/atguigu/product/AreaTop3ProductApp.scala" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/analyse/product/src/main/scala/com/atguigu/product/DataModel.scala" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/analyse/product/src/main/scala/com/atguigu/product/GroupConcatDistinctUDAF.scala" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/analyse/session/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/analyse/session/session.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/analyse/session/src/main/resources/log4j.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/analyse/session/src/main/resources/session.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/analyse/session/src/main/scala/com/atguigu/session/CategorySortKey.scala" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/analyse/session/src/main/scala/com/atguigu/session/DataModel.scala" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/analyse/session/src/main/scala/com/atguigu/session/SessionAggrStatAccumulator.scala" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/analyse/session/src/main/scala/com/atguigu/session/UserVisitSessionAnalyze.scala" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bigdata" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/commerce.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/commons/commons.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/commons/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/commons/src/main/resources/commerce.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/commons/src/main/resources/commerce[data].sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/commons/src/main/resources/log4j.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/commons/src/main/scala/com/atguigu/commons/conf/ConfigurationManager.scala" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/commons/src/main/scala/com/atguigu/commons/constant/Constants.scala" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/commons/src/main/scala/com/atguigu/commons/model/DataModel.scala" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/commons/src/main/scala/com/atguigu/commons/pool/PooledMySqlClientFactory.scala" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/commons/src/main/scala/com/atguigu/commons/utils/Utils.scala" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/derby.log" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/README_DO_NOT_TOUCH_FILES.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/db.lck" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/dbex.lck" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/log/README_DO_NOT_TOUCH_FILES.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/log/log.ctrl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/log/log2.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/log/logmirror.ctrl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/README_DO_NOT_TOUCH_FILES.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c10.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c101.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c111.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c121.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c130.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c141.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c150.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c161.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c171.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c180.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c191.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c1a1.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c1b1.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c1c0.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c1d1.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c1e0.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c1f1.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c20.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c200.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c211.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c221.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c230.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c241.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c251.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c260.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c271.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c281.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c290.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c2a1.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c2b1.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c2c1.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c2d0.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c2e1.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c2f0.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c300.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c31.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c311.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c321.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c331.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c340.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c351.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c361.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c371.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c380.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c391.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c3a1.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c3b1.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c3c0.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c3d1.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c3e1.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c3f1.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c400.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c41.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c411.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c421.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c430.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c441.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c451.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c461.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c470.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c481.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c490.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c4a1.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c4b0.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c4c1.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c4d1.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c4e1.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c4f0.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c501.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c51.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c510.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c521.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c530.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c541.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c550.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c561.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c570.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c581.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c590.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c5a1.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c5b0.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c5c1.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c5d0.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c5e1.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c5f0.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c60.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c601.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c610.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c621.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c630.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c641.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c650.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c661.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c670.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c681.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c690.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c6a1.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c6b0.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c6c1.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c6d0.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c6e1.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c6f0.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c701.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c71.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c711.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c721.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c731.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c741.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c751.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c761.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c771.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c781.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c791.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c7a1.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c7b1.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c7c1.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c7d1.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c7e1.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c7f1.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c801.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c81.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c811.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c821.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c831.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c840.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c851.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c860.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c871.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c880.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c891.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c8a0.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c8b1.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c8c1.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c8d1.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c8e1.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c8f1.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c90.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c901.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c911.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c920.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c931.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c940.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c951.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c960.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c971.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c981.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c990.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c9a1.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c9b1.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c9c0.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c9d1.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c9e0.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c9f1.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/ca01.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/ca1.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/ca11.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/ca21.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/ca30.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/ca41.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/ca50.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/ca61.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/ca71.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/ca81.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/ca91.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/caa1.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/cab1.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/cac0.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/cad1.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/cae1.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/caf1.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/cb00.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/cb1.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/cb11.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/cb21.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/cb31.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/cb40.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/cb51.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/cb61.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/cb71.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/cb80.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/cb91.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/cba1.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/cbb1.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/cc0.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/cd1.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/ce1.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/cf0.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/metastore_db/service.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mock/mock.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mock/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mock/src/main/scala/com/atguigu/mock/MockDataGenerate.scala" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mock/src/main/scala/com/atguigu/mock/MockRealTimeData.scala" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/spark-warehouse/product_info/.part-00000-9cb53e11-61d0-4256-944a-047712c5c441.snappy.parquet.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/spark-warehouse/product_info/.part-00001-9cb53e11-61d0-4256-944a-047712c5c441.snappy.parquet.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/spark-warehouse/product_info/.part-00002-9cb53e11-61d0-4256-944a-047712c5c441.snappy.parquet.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/spark-warehouse/product_info/.part-00003-9cb53e11-61d0-4256-944a-047712c5c441.snappy.parquet.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/spark-warehouse/product_info/.part-00004-9cb53e11-61d0-4256-944a-047712c5c441.snappy.parquet.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/spark-warehouse/product_info/.part-00005-9cb53e11-61d0-4256-944a-047712c5c441.snappy.parquet.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/spark-warehouse/product_info/.part-00006-9cb53e11-61d0-4256-944a-047712c5c441.snappy.parquet.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/spark-warehouse/product_info/.part-00007-9cb53e11-61d0-4256-944a-047712c5c441.snappy.parquet.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/spark-warehouse/product_info/_SUCCESS" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/spark-warehouse/product_info/part-00000-9cb53e11-61d0-4256-944a-047712c5c441.snappy.parquet" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/spark-warehouse/product_info/part-00001-9cb53e11-61d0-4256-944a-047712c5c441.snappy.parquet" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/spark-warehouse/product_info/part-00002-9cb53e11-61d0-4256-944a-047712c5c441.snappy.parquet" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/spark-warehouse/product_info/part-00003-9cb53e11-61d0-4256-944a-047712c5c441.snappy.parquet" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/spark-warehouse/product_info/part-00004-9cb53e11-61d0-4256-944a-047712c5c441.snappy.parquet" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/spark-warehouse/product_info/part-00005-9cb53e11-61d0-4256-944a-047712c5c441.snappy.parquet" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/spark-warehouse/product_info/part-00006-9cb53e11-61d0-4256-944a-047712c5c441.snappy.parquet" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/spark-warehouse/product_info/part-00007-9cb53e11-61d0-4256-944a-047712c5c441.snappy.parquet" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/spark-warehouse/user_info/.part-00000-938b71e1-d8bf-4a5f-af8c-b24b6e1455a7.snappy.parquet.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/spark-warehouse/user_info/.part-00001-938b71e1-d8bf-4a5f-af8c-b24b6e1455a7.snappy.parquet.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/spark-warehouse/user_info/.part-00002-938b71e1-d8bf-4a5f-af8c-b24b6e1455a7.snappy.parquet.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/spark-warehouse/user_info/.part-00003-938b71e1-d8bf-4a5f-af8c-b24b6e1455a7.snappy.parquet.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/spark-warehouse/user_info/.part-00004-938b71e1-d8bf-4a5f-af8c-b24b6e1455a7.snappy.parquet.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/spark-warehouse/user_info/.part-00005-938b71e1-d8bf-4a5f-af8c-b24b6e1455a7.snappy.parquet.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/spark-warehouse/user_info/.part-00006-938b71e1-d8bf-4a5f-af8c-b24b6e1455a7.snappy.parquet.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/spark-warehouse/user_info/.part-00007-938b71e1-d8bf-4a5f-af8c-b24b6e1455a7.snappy.parquet.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/spark-warehouse/user_info/_SUCCESS" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/spark-warehouse/user_info/part-00000-938b71e1-d8bf-4a5f-af8c-b24b6e1455a7.snappy.parquet" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/spark-warehouse/user_info/part-00001-938b71e1-d8bf-4a5f-af8c-b24b6e1455a7.snappy.parquet" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/spark-warehouse/user_info/part-00002-938b71e1-d8bf-4a5f-af8c-b24b6e1455a7.snappy.parquet" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/spark-warehouse/user_info/part-00003-938b71e1-d8bf-4a5f-af8c-b24b6e1455a7.snappy.parquet" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/spark-warehouse/user_info/part-00004-938b71e1-d8bf-4a5f-af8c-b24b6e1455a7.snappy.parquet" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/spark-warehouse/user_info/part-00005-938b71e1-d8bf-4a5f-af8c-b24b6e1455a7.snappy.parquet" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/spark-warehouse/user_info/part-00006-938b71e1-d8bf-4a5f-af8c-b24b6e1455a7.snappy.parquet" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/spark-warehouse/user_info/part-00007-938b71e1-d8bf-4a5f-af8c-b24b6e1455a7.snappy.parquet" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/spark-warehouse/user_visit_action/.part-00000-fa02ef0a-7f1a-40eb-9584-d2e0ff3660a6.snappy.parquet.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/spark-warehouse/user_visit_action/.part-00001-fa02ef0a-7f1a-40eb-9584-d2e0ff3660a6.snappy.parquet.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/spark-warehouse/user_visit_action/.part-00002-fa02ef0a-7f1a-40eb-9584-d2e0ff3660a6.snappy.parquet.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/spark-warehouse/user_visit_action/.part-00003-fa02ef0a-7f1a-40eb-9584-d2e0ff3660a6.snappy.parquet.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/spark-warehouse/user_visit_action/.part-00004-fa02ef0a-7f1a-40eb-9584-d2e0ff3660a6.snappy.parquet.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/spark-warehouse/user_visit_action/.part-00005-fa02ef0a-7f1a-40eb-9584-d2e0ff3660a6.snappy.parquet.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/spark-warehouse/user_visit_action/.part-00006-fa02ef0a-7f1a-40eb-9584-d2e0ff3660a6.snappy.parquet.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/spark-warehouse/user_visit_action/.part-00007-fa02ef0a-7f1a-40eb-9584-d2e0ff3660a6.snappy.parquet.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/spark-warehouse/user_visit_action/_SUCCESS" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/spark-warehouse/user_visit_action/part-00000-fa02ef0a-7f1a-40eb-9584-d2e0ff3660a6.snappy.parquet" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/spark-warehouse/user_visit_action/part-00001-fa02ef0a-7f1a-40eb-9584-d2e0ff3660a6.snappy.parquet" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/spark-warehouse/user_visit_action/part-00002-fa02ef0a-7f1a-40eb-9584-d2e0ff3660a6.snappy.parquet" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/spark-warehouse/user_visit_action/part-00003-fa02ef0a-7f1a-40eb-9584-d2e0ff3660a6.snappy.parquet" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/spark-warehouse/user_visit_action/part-00004-fa02ef0a-7f1a-40eb-9584-d2e0ff3660a6.snappy.parquet" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/spark-warehouse/user_visit_action/part-00005-fa02ef0a-7f1a-40eb-9584-d2e0ff3660a6.snappy.parquet" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/spark-warehouse/user_visit_action/part-00006-fa02ef0a-7f1a-40eb-9584-d2e0ff3660a6.snappy.parquet" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/spark-warehouse/user_visit_action/part-00007-fa02ef0a-7f1a-40eb-9584-d2e0ff3660a6.snappy.parquet" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/.checkpoint-1509679055000.bk.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/.checkpoint-1509679055000.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/.checkpoint-1509679060000.bk.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/.checkpoint-1509679060000.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/.checkpoint-1509679065000.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/.checkpoint-1509679070000.bk.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/.checkpoint-1509679070000.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/.checkpoint-1509679075000.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/.checkpoint-1509679080000.bk.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/.checkpoint-1509679080000.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/09ace6bd-574a-4053-b7ab-b1d857739b98/rdd-416/.part-00000.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/09ace6bd-574a-4053-b7ab-b1d857739b98/rdd-416/.part-00001.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/09ace6bd-574a-4053-b7ab-b1d857739b98/rdd-416/.part-00002.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/09ace6bd-574a-4053-b7ab-b1d857739b98/rdd-416/.part-00003.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/09ace6bd-574a-4053-b7ab-b1d857739b98/rdd-416/.part-00004.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/09ace6bd-574a-4053-b7ab-b1d857739b98/rdd-416/.part-00005.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/09ace6bd-574a-4053-b7ab-b1d857739b98/rdd-416/.part-00006.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/09ace6bd-574a-4053-b7ab-b1d857739b98/rdd-416/.part-00007.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/09ace6bd-574a-4053-b7ab-b1d857739b98/rdd-416/_partitioner" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/09ace6bd-574a-4053-b7ab-b1d857739b98/rdd-416/part-00000" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/09ace6bd-574a-4053-b7ab-b1d857739b98/rdd-416/part-00001" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/09ace6bd-574a-4053-b7ab-b1d857739b98/rdd-416/part-00002" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/09ace6bd-574a-4053-b7ab-b1d857739b98/rdd-416/part-00003" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/09ace6bd-574a-4053-b7ab-b1d857739b98/rdd-416/part-00004" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/09ace6bd-574a-4053-b7ab-b1d857739b98/rdd-416/part-00005" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/09ace6bd-574a-4053-b7ab-b1d857739b98/rdd-416/part-00006" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/09ace6bd-574a-4053-b7ab-b1d857739b98/rdd-416/part-00007" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/09ace6bd-574a-4053-b7ab-b1d857739b98/rdd-489/.part-00000.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/09ace6bd-574a-4053-b7ab-b1d857739b98/rdd-489/.part-00001.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/09ace6bd-574a-4053-b7ab-b1d857739b98/rdd-489/.part-00002.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/09ace6bd-574a-4053-b7ab-b1d857739b98/rdd-489/.part-00003.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/09ace6bd-574a-4053-b7ab-b1d857739b98/rdd-489/.part-00004.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/09ace6bd-574a-4053-b7ab-b1d857739b98/rdd-489/.part-00005.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/09ace6bd-574a-4053-b7ab-b1d857739b98/rdd-489/.part-00006.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/09ace6bd-574a-4053-b7ab-b1d857739b98/rdd-489/.part-00007.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/09ace6bd-574a-4053-b7ab-b1d857739b98/rdd-489/_partitioner" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/09ace6bd-574a-4053-b7ab-b1d857739b98/rdd-489/part-00000" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/09ace6bd-574a-4053-b7ab-b1d857739b98/rdd-489/part-00001" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/09ace6bd-574a-4053-b7ab-b1d857739b98/rdd-489/part-00002" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/09ace6bd-574a-4053-b7ab-b1d857739b98/rdd-489/part-00003" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/09ace6bd-574a-4053-b7ab-b1d857739b98/rdd-489/part-00004" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/09ace6bd-574a-4053-b7ab-b1d857739b98/rdd-489/part-00005" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/09ace6bd-574a-4053-b7ab-b1d857739b98/rdd-489/part-00006" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/09ace6bd-574a-4053-b7ab-b1d857739b98/rdd-489/part-00007" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/4524e107-fb21-420f-82d3-1bd66e648f6f/rdd-343/.part-00000.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/4524e107-fb21-420f-82d3-1bd66e648f6f/rdd-343/.part-00001.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/4524e107-fb21-420f-82d3-1bd66e648f6f/rdd-343/.part-00002.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/4524e107-fb21-420f-82d3-1bd66e648f6f/rdd-343/.part-00003.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/4524e107-fb21-420f-82d3-1bd66e648f6f/rdd-343/.part-00004.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/4524e107-fb21-420f-82d3-1bd66e648f6f/rdd-343/.part-00005.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/4524e107-fb21-420f-82d3-1bd66e648f6f/rdd-343/.part-00006.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/4524e107-fb21-420f-82d3-1bd66e648f6f/rdd-343/.part-00007.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/4524e107-fb21-420f-82d3-1bd66e648f6f/rdd-343/_partitioner" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/4524e107-fb21-420f-82d3-1bd66e648f6f/rdd-343/part-00000" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/4524e107-fb21-420f-82d3-1bd66e648f6f/rdd-343/part-00001" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/4524e107-fb21-420f-82d3-1bd66e648f6f/rdd-343/part-00002" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/4524e107-fb21-420f-82d3-1bd66e648f6f/rdd-343/part-00003" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/4524e107-fb21-420f-82d3-1bd66e648f6f/rdd-343/part-00004" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/4524e107-fb21-420f-82d3-1bd66e648f6f/rdd-343/part-00005" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/4524e107-fb21-420f-82d3-1bd66e648f6f/rdd-343/part-00006" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/4524e107-fb21-420f-82d3-1bd66e648f6f/rdd-343/part-00007" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/4524e107-fb21-420f-82d3-1bd66e648f6f/rdd-425/.part-00000.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/4524e107-fb21-420f-82d3-1bd66e648f6f/rdd-425/.part-00001.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/4524e107-fb21-420f-82d3-1bd66e648f6f/rdd-425/.part-00002.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/4524e107-fb21-420f-82d3-1bd66e648f6f/rdd-425/.part-00003.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/4524e107-fb21-420f-82d3-1bd66e648f6f/rdd-425/.part-00004.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/4524e107-fb21-420f-82d3-1bd66e648f6f/rdd-425/.part-00005.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/4524e107-fb21-420f-82d3-1bd66e648f6f/rdd-425/.part-00006.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/4524e107-fb21-420f-82d3-1bd66e648f6f/rdd-425/.part-00007.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/4524e107-fb21-420f-82d3-1bd66e648f6f/rdd-425/_partitioner" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/4524e107-fb21-420f-82d3-1bd66e648f6f/rdd-425/part-00000" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/4524e107-fb21-420f-82d3-1bd66e648f6f/rdd-425/part-00001" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/4524e107-fb21-420f-82d3-1bd66e648f6f/rdd-425/part-00002" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/4524e107-fb21-420f-82d3-1bd66e648f6f/rdd-425/part-00003" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/4524e107-fb21-420f-82d3-1bd66e648f6f/rdd-425/part-00004" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/4524e107-fb21-420f-82d3-1bd66e648f6f/rdd-425/part-00005" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/4524e107-fb21-420f-82d3-1bd66e648f6f/rdd-425/part-00006" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/4524e107-fb21-420f-82d3-1bd66e648f6f/rdd-425/part-00007" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/4524e107-fb21-420f-82d3-1bd66e648f6f/rdd-463/.part-00000.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/4524e107-fb21-420f-82d3-1bd66e648f6f/rdd-463/.part-00001.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/4524e107-fb21-420f-82d3-1bd66e648f6f/rdd-463/.part-00002.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/4524e107-fb21-420f-82d3-1bd66e648f6f/rdd-463/.part-00003.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/4524e107-fb21-420f-82d3-1bd66e648f6f/rdd-463/.part-00004.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/4524e107-fb21-420f-82d3-1bd66e648f6f/rdd-463/.part-00005.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/4524e107-fb21-420f-82d3-1bd66e648f6f/rdd-463/.part-00006.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/4524e107-fb21-420f-82d3-1bd66e648f6f/rdd-463/.part-00007.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/4524e107-fb21-420f-82d3-1bd66e648f6f/rdd-463/_partitioner" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/4524e107-fb21-420f-82d3-1bd66e648f6f/rdd-463/part-00000" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/4524e107-fb21-420f-82d3-1bd66e648f6f/rdd-463/part-00001" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/4524e107-fb21-420f-82d3-1bd66e648f6f/rdd-463/part-00002" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/4524e107-fb21-420f-82d3-1bd66e648f6f/rdd-463/part-00003" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/4524e107-fb21-420f-82d3-1bd66e648f6f/rdd-463/part-00004" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/4524e107-fb21-420f-82d3-1bd66e648f6f/rdd-463/part-00005" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/4524e107-fb21-420f-82d3-1bd66e648f6f/rdd-463/part-00006" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/4524e107-fb21-420f-82d3-1bd66e648f6f/rdd-463/part-00007" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/7c1655ed-09b3-4af7-92e4-dffb21a4f9a9/rdd-9030/.part-00000.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/7c1655ed-09b3-4af7-92e4-dffb21a4f9a9/rdd-9030/.part-00001.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/7c1655ed-09b3-4af7-92e4-dffb21a4f9a9/rdd-9030/.part-00002.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/7c1655ed-09b3-4af7-92e4-dffb21a4f9a9/rdd-9030/.part-00003.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/7c1655ed-09b3-4af7-92e4-dffb21a4f9a9/rdd-9030/.part-00004.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/7c1655ed-09b3-4af7-92e4-dffb21a4f9a9/rdd-9030/.part-00005.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/7c1655ed-09b3-4af7-92e4-dffb21a4f9a9/rdd-9030/.part-00006.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/7c1655ed-09b3-4af7-92e4-dffb21a4f9a9/rdd-9030/.part-00007.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/7c1655ed-09b3-4af7-92e4-dffb21a4f9a9/rdd-9030/_partitioner" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/7c1655ed-09b3-4af7-92e4-dffb21a4f9a9/rdd-9030/part-00000" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/7c1655ed-09b3-4af7-92e4-dffb21a4f9a9/rdd-9030/part-00001" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/7c1655ed-09b3-4af7-92e4-dffb21a4f9a9/rdd-9030/part-00002" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/7c1655ed-09b3-4af7-92e4-dffb21a4f9a9/rdd-9030/part-00003" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/7c1655ed-09b3-4af7-92e4-dffb21a4f9a9/rdd-9030/part-00004" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/7c1655ed-09b3-4af7-92e4-dffb21a4f9a9/rdd-9030/part-00005" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/7c1655ed-09b3-4af7-92e4-dffb21a4f9a9/rdd-9030/part-00006" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/7c1655ed-09b3-4af7-92e4-dffb21a4f9a9/rdd-9030/part-00007" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/7c1655ed-09b3-4af7-92e4-dffb21a4f9a9/rdd-9103/.part-00000.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/7c1655ed-09b3-4af7-92e4-dffb21a4f9a9/rdd-9103/.part-00001.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/7c1655ed-09b3-4af7-92e4-dffb21a4f9a9/rdd-9103/.part-00002.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/7c1655ed-09b3-4af7-92e4-dffb21a4f9a9/rdd-9103/.part-00003.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/7c1655ed-09b3-4af7-92e4-dffb21a4f9a9/rdd-9103/.part-00004.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/7c1655ed-09b3-4af7-92e4-dffb21a4f9a9/rdd-9103/.part-00005.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/7c1655ed-09b3-4af7-92e4-dffb21a4f9a9/rdd-9103/.part-00006.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/7c1655ed-09b3-4af7-92e4-dffb21a4f9a9/rdd-9103/.part-00007.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/7c1655ed-09b3-4af7-92e4-dffb21a4f9a9/rdd-9103/_partitioner" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/7c1655ed-09b3-4af7-92e4-dffb21a4f9a9/rdd-9103/part-00000" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/7c1655ed-09b3-4af7-92e4-dffb21a4f9a9/rdd-9103/part-00001" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/7c1655ed-09b3-4af7-92e4-dffb21a4f9a9/rdd-9103/part-00002" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/7c1655ed-09b3-4af7-92e4-dffb21a4f9a9/rdd-9103/part-00003" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/7c1655ed-09b3-4af7-92e4-dffb21a4f9a9/rdd-9103/part-00004" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/7c1655ed-09b3-4af7-92e4-dffb21a4f9a9/rdd-9103/part-00005" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/7c1655ed-09b3-4af7-92e4-dffb21a4f9a9/rdd-9103/part-00006" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/7c1655ed-09b3-4af7-92e4-dffb21a4f9a9/rdd-9103/part-00007" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/7c1655ed-09b3-4af7-92e4-dffb21a4f9a9/rdd-9176/.part-00000.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/7c1655ed-09b3-4af7-92e4-dffb21a4f9a9/rdd-9176/.part-00001.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/7c1655ed-09b3-4af7-92e4-dffb21a4f9a9/rdd-9176/.part-00002.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/7c1655ed-09b3-4af7-92e4-dffb21a4f9a9/rdd-9176/.part-00003.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/7c1655ed-09b3-4af7-92e4-dffb21a4f9a9/rdd-9176/.part-00004.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/7c1655ed-09b3-4af7-92e4-dffb21a4f9a9/rdd-9176/.part-00005.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/7c1655ed-09b3-4af7-92e4-dffb21a4f9a9/rdd-9176/.part-00006.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/7c1655ed-09b3-4af7-92e4-dffb21a4f9a9/rdd-9176/.part-00007.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/7c1655ed-09b3-4af7-92e4-dffb21a4f9a9/rdd-9176/_partitioner" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/7c1655ed-09b3-4af7-92e4-dffb21a4f9a9/rdd-9176/part-00000" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/7c1655ed-09b3-4af7-92e4-dffb21a4f9a9/rdd-9176/part-00001" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/7c1655ed-09b3-4af7-92e4-dffb21a4f9a9/rdd-9176/part-00002" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/7c1655ed-09b3-4af7-92e4-dffb21a4f9a9/rdd-9176/part-00003" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/7c1655ed-09b3-4af7-92e4-dffb21a4f9a9/rdd-9176/part-00004" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/7c1655ed-09b3-4af7-92e4-dffb21a4f9a9/rdd-9176/part-00005" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/7c1655ed-09b3-4af7-92e4-dffb21a4f9a9/rdd-9176/part-00006" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/7c1655ed-09b3-4af7-92e4-dffb21a4f9a9/rdd-9176/part-00007" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/9b4928cd-378b-4dc7-aca0-720c61edd573/rdd-2258/.part-00000.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/9b4928cd-378b-4dc7-aca0-720c61edd573/rdd-2258/.part-00001.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/9b4928cd-378b-4dc7-aca0-720c61edd573/rdd-2258/.part-00002.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/9b4928cd-378b-4dc7-aca0-720c61edd573/rdd-2258/.part-00003.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/9b4928cd-378b-4dc7-aca0-720c61edd573/rdd-2258/.part-00004.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/9b4928cd-378b-4dc7-aca0-720c61edd573/rdd-2258/.part-00005.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/9b4928cd-378b-4dc7-aca0-720c61edd573/rdd-2258/.part-00006.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/9b4928cd-378b-4dc7-aca0-720c61edd573/rdd-2258/.part-00007.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/9b4928cd-378b-4dc7-aca0-720c61edd573/rdd-2258/_partitioner" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/9b4928cd-378b-4dc7-aca0-720c61edd573/rdd-2258/part-00000" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/9b4928cd-378b-4dc7-aca0-720c61edd573/rdd-2258/part-00001" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/9b4928cd-378b-4dc7-aca0-720c61edd573/rdd-2258/part-00002" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/9b4928cd-378b-4dc7-aca0-720c61edd573/rdd-2258/part-00003" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/9b4928cd-378b-4dc7-aca0-720c61edd573/rdd-2258/part-00004" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/9b4928cd-378b-4dc7-aca0-720c61edd573/rdd-2258/part-00005" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/9b4928cd-378b-4dc7-aca0-720c61edd573/rdd-2258/part-00006" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/9b4928cd-378b-4dc7-aca0-720c61edd573/rdd-2258/part-00007" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/9b4928cd-378b-4dc7-aca0-720c61edd573/rdd-2297/.part-00000(1).crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/9b4928cd-378b-4dc7-aca0-720c61edd573/rdd-2297/.part-00001.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/9b4928cd-378b-4dc7-aca0-720c61edd573/rdd-2297/.part-00002.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/9b4928cd-378b-4dc7-aca0-720c61edd573/rdd-2297/.part-00003.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/9b4928cd-378b-4dc7-aca0-720c61edd573/rdd-2297/.part-00004.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/9b4928cd-378b-4dc7-aca0-720c61edd573/rdd-2297/.part-00005.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/9b4928cd-378b-4dc7-aca0-720c61edd573/rdd-2297/.part-00006.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/9b4928cd-378b-4dc7-aca0-720c61edd573/rdd-2297/.part-00007.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/9b4928cd-378b-4dc7-aca0-720c61edd573/rdd-2297/_partitioner" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/9b4928cd-378b-4dc7-aca0-720c61edd573/rdd-2297/part-00000" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/9b4928cd-378b-4dc7-aca0-720c61edd573/rdd-2297/part-00001" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/9b4928cd-378b-4dc7-aca0-720c61edd573/rdd-2297/part-00002" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/9b4928cd-378b-4dc7-aca0-720c61edd573/rdd-2297/part-00003" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/9b4928cd-378b-4dc7-aca0-720c61edd573/rdd-2297/part-00004" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/9b4928cd-378b-4dc7-aca0-720c61edd573/rdd-2297/part-00005" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/9b4928cd-378b-4dc7-aca0-720c61edd573/rdd-2297/part-00006" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/9b4928cd-378b-4dc7-aca0-720c61edd573/rdd-2297/part-00007" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/bd8dc709-9c1e-4204-8f44-8b10e6edafdb/rdd-120/.part-00000.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/bd8dc709-9c1e-4204-8f44-8b10e6edafdb/rdd-120/.part-00001.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/bd8dc709-9c1e-4204-8f44-8b10e6edafdb/rdd-120/.part-00002.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/bd8dc709-9c1e-4204-8f44-8b10e6edafdb/rdd-120/.part-00003.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/bd8dc709-9c1e-4204-8f44-8b10e6edafdb/rdd-120/.part-00004.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/bd8dc709-9c1e-4204-8f44-8b10e6edafdb/rdd-120/.part-00005.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/bd8dc709-9c1e-4204-8f44-8b10e6edafdb/rdd-120/.part-00006.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/bd8dc709-9c1e-4204-8f44-8b10e6edafdb/rdd-120/.part-00007.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/bd8dc709-9c1e-4204-8f44-8b10e6edafdb/rdd-120/_partitioner" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/bd8dc709-9c1e-4204-8f44-8b10e6edafdb/rdd-120/part-00000" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/bd8dc709-9c1e-4204-8f44-8b10e6edafdb/rdd-120/part-00001" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/bd8dc709-9c1e-4204-8f44-8b10e6edafdb/rdd-120/part-00002" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/bd8dc709-9c1e-4204-8f44-8b10e6edafdb/rdd-120/part-00003" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/bd8dc709-9c1e-4204-8f44-8b10e6edafdb/rdd-120/part-00004" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/bd8dc709-9c1e-4204-8f44-8b10e6edafdb/rdd-120/part-00005" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/bd8dc709-9c1e-4204-8f44-8b10e6edafdb/rdd-120/part-00006" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/bd8dc709-9c1e-4204-8f44-8b10e6edafdb/rdd-120/part-00007" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/bd8dc709-9c1e-4204-8f44-8b10e6edafdb/rdd-191/.part-00000.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/bd8dc709-9c1e-4204-8f44-8b10e6edafdb/rdd-191/.part-00001.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/bd8dc709-9c1e-4204-8f44-8b10e6edafdb/rdd-191/.part-00002.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/bd8dc709-9c1e-4204-8f44-8b10e6edafdb/rdd-191/.part-00003.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/bd8dc709-9c1e-4204-8f44-8b10e6edafdb/rdd-191/.part-00004.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/bd8dc709-9c1e-4204-8f44-8b10e6edafdb/rdd-191/.part-00005.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/bd8dc709-9c1e-4204-8f44-8b10e6edafdb/rdd-191/.part-00006.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/bd8dc709-9c1e-4204-8f44-8b10e6edafdb/rdd-191/.part-00007.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/bd8dc709-9c1e-4204-8f44-8b10e6edafdb/rdd-191/_partitioner" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/bd8dc709-9c1e-4204-8f44-8b10e6edafdb/rdd-191/part-00000" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/bd8dc709-9c1e-4204-8f44-8b10e6edafdb/rdd-191/part-00001" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/bd8dc709-9c1e-4204-8f44-8b10e6edafdb/rdd-191/part-00002" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/bd8dc709-9c1e-4204-8f44-8b10e6edafdb/rdd-191/part-00003" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/bd8dc709-9c1e-4204-8f44-8b10e6edafdb/rdd-191/part-00004" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/bd8dc709-9c1e-4204-8f44-8b10e6edafdb/rdd-191/part-00005" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/bd8dc709-9c1e-4204-8f44-8b10e6edafdb/rdd-191/part-00006" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/bd8dc709-9c1e-4204-8f44-8b10e6edafdb/rdd-191/part-00007" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/checkpoint-1509679055000" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/checkpoint-1509679055000.bk" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/checkpoint-1509679060000" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/checkpoint-1509679060000.bk" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/checkpoint-1509679065000" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/checkpoint-1509679070000" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/checkpoint-1509679070000.bk" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/checkpoint-1509679075000" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/checkpoint-1509679080000" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/checkpoint-1509679080000.bk" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/d03004b8-eb23-4993-8ac7-b454e7190ca5/rdd-626/.part-00000.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/d03004b8-eb23-4993-8ac7-b454e7190ca5/rdd-626/.part-00001.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/d03004b8-eb23-4993-8ac7-b454e7190ca5/rdd-626/.part-00002.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/d03004b8-eb23-4993-8ac7-b454e7190ca5/rdd-626/.part-00003.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/d03004b8-eb23-4993-8ac7-b454e7190ca5/rdd-626/.part-00004.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/d03004b8-eb23-4993-8ac7-b454e7190ca5/rdd-626/.part-00005.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/d03004b8-eb23-4993-8ac7-b454e7190ca5/rdd-626/.part-00006.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/d03004b8-eb23-4993-8ac7-b454e7190ca5/rdd-626/.part-00007.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/d03004b8-eb23-4993-8ac7-b454e7190ca5/rdd-626/_partitioner" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/d03004b8-eb23-4993-8ac7-b454e7190ca5/rdd-626/part-00000" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/d03004b8-eb23-4993-8ac7-b454e7190ca5/rdd-626/part-00001" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/d03004b8-eb23-4993-8ac7-b454e7190ca5/rdd-626/part-00002" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/d03004b8-eb23-4993-8ac7-b454e7190ca5/rdd-626/part-00003" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/d03004b8-eb23-4993-8ac7-b454e7190ca5/rdd-626/part-00004" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/d03004b8-eb23-4993-8ac7-b454e7190ca5/rdd-626/part-00005" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/d03004b8-eb23-4993-8ac7-b454e7190ca5/rdd-626/part-00006" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/d03004b8-eb23-4993-8ac7-b454e7190ca5/rdd-626/part-00007" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/d03004b8-eb23-4993-8ac7-b454e7190ca5/rdd-707/.part-00000.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/d03004b8-eb23-4993-8ac7-b454e7190ca5/rdd-707/.part-00001.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/d03004b8-eb23-4993-8ac7-b454e7190ca5/rdd-707/.part-00002.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/d03004b8-eb23-4993-8ac7-b454e7190ca5/rdd-707/.part-00003.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/d03004b8-eb23-4993-8ac7-b454e7190ca5/rdd-707/.part-00004.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/d03004b8-eb23-4993-8ac7-b454e7190ca5/rdd-707/.part-00005.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/d03004b8-eb23-4993-8ac7-b454e7190ca5/rdd-707/.part-00006.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/d03004b8-eb23-4993-8ac7-b454e7190ca5/rdd-707/.part-00007.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/d03004b8-eb23-4993-8ac7-b454e7190ca5/rdd-707/_partitioner" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/d03004b8-eb23-4993-8ac7-b454e7190ca5/rdd-707/part-00000" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/d03004b8-eb23-4993-8ac7-b454e7190ca5/rdd-707/part-00001" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/d03004b8-eb23-4993-8ac7-b454e7190ca5/rdd-707/part-00002" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/d03004b8-eb23-4993-8ac7-b454e7190ca5/rdd-707/part-00003" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/d03004b8-eb23-4993-8ac7-b454e7190ca5/rdd-707/part-00004" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/d03004b8-eb23-4993-8ac7-b454e7190ca5/rdd-707/part-00005" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/d03004b8-eb23-4993-8ac7-b454e7190ca5/rdd-707/part-00006" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/d03004b8-eb23-4993-8ac7-b454e7190ca5/rdd-707/part-00007" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/f2f07494-bde6-44b9-b84e-2880364c4678/rdd-36/.part-00000.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/f2f07494-bde6-44b9-b84e-2880364c4678/rdd-36/.part-00001.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/f2f07494-bde6-44b9-b84e-2880364c4678/rdd-36/.part-00002.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/f2f07494-bde6-44b9-b84e-2880364c4678/rdd-36/.part-00003.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/f2f07494-bde6-44b9-b84e-2880364c4678/rdd-36/.part-00004.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/f2f07494-bde6-44b9-b84e-2880364c4678/rdd-36/.part-00005.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/f2f07494-bde6-44b9-b84e-2880364c4678/rdd-36/.part-00006.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/f2f07494-bde6-44b9-b84e-2880364c4678/rdd-36/.part-00007.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/f2f07494-bde6-44b9-b84e-2880364c4678/rdd-36/_partitioner" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/f2f07494-bde6-44b9-b84e-2880364c4678/rdd-36/part-00000" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/f2f07494-bde6-44b9-b84e-2880364c4678/rdd-36/part-00001" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/f2f07494-bde6-44b9-b84e-2880364c4678/rdd-36/part-00002" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/f2f07494-bde6-44b9-b84e-2880364c4678/rdd-36/part-00003" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/f2f07494-bde6-44b9-b84e-2880364c4678/rdd-36/part-00004" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/f2f07494-bde6-44b9-b84e-2880364c4678/rdd-36/part-00005" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/f2f07494-bde6-44b9-b84e-2880364c4678/rdd-36/part-00006" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/f2f07494-bde6-44b9-b84e-2880364c4678/rdd-36/part-00007" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/f2f07494-bde6-44b9-b84e-2880364c4678/rdd-75/.part-00000.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/f2f07494-bde6-44b9-b84e-2880364c4678/rdd-75/.part-00001.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/f2f07494-bde6-44b9-b84e-2880364c4678/rdd-75/.part-00002.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/f2f07494-bde6-44b9-b84e-2880364c4678/rdd-75/.part-00003.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/f2f07494-bde6-44b9-b84e-2880364c4678/rdd-75/.part-00004.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/f2f07494-bde6-44b9-b84e-2880364c4678/rdd-75/.part-00005.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/f2f07494-bde6-44b9-b84e-2880364c4678/rdd-75/.part-00006.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/f2f07494-bde6-44b9-b84e-2880364c4678/rdd-75/.part-00007.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/f2f07494-bde6-44b9-b84e-2880364c4678/rdd-75/_partitioner" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/f2f07494-bde6-44b9-b84e-2880364c4678/rdd-75/part-00000" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/f2f07494-bde6-44b9-b84e-2880364c4678/rdd-75/part-00001" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/f2f07494-bde6-44b9-b84e-2880364c4678/rdd-75/part-00002" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/f2f07494-bde6-44b9-b84e-2880364c4678/rdd-75/part-00003" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/f2f07494-bde6-44b9-b84e-2880364c4678/rdd-75/part-00004" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/f2f07494-bde6-44b9-b84e-2880364c4678/rdd-75/part-00005" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/f2f07494-bde6-44b9-b84e-2880364c4678/rdd-75/part-00006" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/f2f07494-bde6-44b9-b84e-2880364c4678/rdd-75/part-00007" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/f4831a11-ddb8-4988-b28d-c7f85c38d1fa/rdd-1934/.part-00000.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/f4831a11-ddb8-4988-b28d-c7f85c38d1fa/rdd-1934/.part-00001.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/f4831a11-ddb8-4988-b28d-c7f85c38d1fa/rdd-1934/.part-00002.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/f4831a11-ddb8-4988-b28d-c7f85c38d1fa/rdd-1934/.part-00003.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/f4831a11-ddb8-4988-b28d-c7f85c38d1fa/rdd-1934/.part-00004.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/f4831a11-ddb8-4988-b28d-c7f85c38d1fa/rdd-1934/.part-00005.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/f4831a11-ddb8-4988-b28d-c7f85c38d1fa/rdd-1934/.part-00006.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/f4831a11-ddb8-4988-b28d-c7f85c38d1fa/rdd-1934/.part-00007.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/f4831a11-ddb8-4988-b28d-c7f85c38d1fa/rdd-1934/_partitioner" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/f4831a11-ddb8-4988-b28d-c7f85c38d1fa/rdd-1934/part-00000" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/f4831a11-ddb8-4988-b28d-c7f85c38d1fa/rdd-1934/part-00001" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/f4831a11-ddb8-4988-b28d-c7f85c38d1fa/rdd-1934/part-00002" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/f4831a11-ddb8-4988-b28d-c7f85c38d1fa/rdd-1934/part-00003" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/f4831a11-ddb8-4988-b28d-c7f85c38d1fa/rdd-1934/part-00004" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/f4831a11-ddb8-4988-b28d-c7f85c38d1fa/rdd-1934/part-00005" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/f4831a11-ddb8-4988-b28d-c7f85c38d1fa/rdd-1934/part-00006" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/f4831a11-ddb8-4988-b28d-c7f85c38d1fa/rdd-1934/part-00007" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/f4831a11-ddb8-4988-b28d-c7f85c38d1fa/rdd-1999/.part-00000.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/f4831a11-ddb8-4988-b28d-c7f85c38d1fa/rdd-1999/.part-00001.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/f4831a11-ddb8-4988-b28d-c7f85c38d1fa/rdd-1999/.part-00002.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/f4831a11-ddb8-4988-b28d-c7f85c38d1fa/rdd-1999/.part-00003.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/f4831a11-ddb8-4988-b28d-c7f85c38d1fa/rdd-1999/.part-00004.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/f4831a11-ddb8-4988-b28d-c7f85c38d1fa/rdd-1999/.part-00005.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/f4831a11-ddb8-4988-b28d-c7f85c38d1fa/rdd-1999/.part-00006.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/f4831a11-ddb8-4988-b28d-c7f85c38d1fa/rdd-1999/.part-00007.crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/f4831a11-ddb8-4988-b28d-c7f85c38d1fa/rdd-1999/_partitioner" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/f4831a11-ddb8-4988-b28d-c7f85c38d1fa/rdd-1999/part-00000" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/f4831a11-ddb8-4988-b28d-c7f85c38d1fa/rdd-1999/part-00001" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/f4831a11-ddb8-4988-b28d-c7f85c38d1fa/rdd-1999/part-00002" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/f4831a11-ddb8-4988-b28d-c7f85c38d1fa/rdd-1999/part-00003" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/f4831a11-ddb8-4988-b28d-c7f85c38d1fa/rdd-1999/part-00004" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/f4831a11-ddb8-4988-b28d-c7f85c38d1fa/rdd-1999/part-00005" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/f4831a11-ddb8-4988-b28d-c7f85c38d1fa/rdd-1999/part-00006" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/f4831a11-ddb8-4988-b28d-c7f85c38d1fa/rdd-1999/part-00007" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/receivedBlockMetadata/log-1509676712106-1509676772106" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/receivedBlockMetadata/log-1509676808727-1509676868727" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/receivedBlockMetadata/log-1509677351825-1509677411825" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/receivedBlockMetadata/log-1509677447272-1509677507272" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/receivedBlockMetadata/log-1509677511042-1509677571042" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/receivedBlockMetadata/log-1509677576049-1509677636049" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/receivedBlockMetadata/log-1509677640900-1509677700900" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/receivedBlockMetadata/log-1509677705948-1509677765948" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/receivedBlockMetadata/log-1509677765980-1509677825980" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/receivedBlockMetadata/log-1509677826045-1509677886045" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/receivedBlockMetadata/log-1509677891005-1509677951005" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/receivedBlockMetadata/log-1509677951705-1509678011705" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/receivedBlockMetadata/log-1509678015957-1509678075957" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/receivedBlockMetadata/log-1509678075970-1509678135970" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/receivedBlockMetadata/log-1509678135975-1509678195975" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/receivedBlockMetadata/log-1509678195981-1509678255981" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/receivedBlockMetadata/log-1509678260896-1509678320896" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/receivedBlockMetadata/log-1509678326074-1509678386074" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/receivedBlockMetadata/log-1509678386092-1509678446092" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/receivedBlockMetadata/log-1509678450928-1509678510928" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/receivedBlockMetadata/log-1509678516008-1509678576008" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/receivedBlockMetadata/log-1509678580911-1509678640911" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/receivedBlockMetadata/log-1509678646081-1509678706081" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/receivedBlockMetadata/log-1509678826438-1509678886438" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/receivedBlockMetadata/log-1509678887153-1509678947153" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/receivedBlockMetadata/log-1509678998707-1509679058707" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/streaming_checkpoint/receivedBlockMetadata/log-1509679063943-1509679123943" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/analyse/target/" />
+    <ignored path="$PROJECT_DIR$/analyse/session/target/" />
+    <ignored path="$PROJECT_DIR$/other/target/" />
+    <ignored path="$PROJECT_DIR$/commons/target/" />
+    <ignored path="$PROJECT_DIR$/analyse/page/target/" />
+    <ignored path="$PROJECT_DIR$/analyse/product/target/" />
+    <ignored path="$PROJECT_DIR$/analyse/advertising/target/" />
+    <ignored path="$PROJECT_DIR$/mock/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/commerce$AdClickRealTimeStat.coverage" NAME="AdClickRealTimeStat Coverage Results" MODIFIED="1509526746306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.atguigu.stream.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="DataModel.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/analyse/advertising/src/main/scala/com/atguigu/stream/DataModel.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="2" column="3" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JdbcHelper.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/analyse/advertising/src/main/scala/com/atguigu/stream/JdbcHelper.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="33" lean-forward="false" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bigdata/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserVisitSessionAnalyze.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/analyse/session/src/main/scala/com/atguigu/session/UserVisitSessionAnalyze.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="383">
+              <caret line="865" column="5" lean-forward="false" selection-start-line="865" selection-start-column="5" selection-end-line="865" selection-end-column="5" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Utils.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/commons/src/main/scala/com/atguigu/commons/utils/Utils.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="224" column="6" lean-forward="false" selection-start-line="224" selection-start-column="6" selection-end-line="224" selection-end-column="6" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SessionAggrStatAccumulator.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/analyse/session/src/main/scala/com/atguigu/session/SessionAggrStatAccumulator.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="259">
+              <caret line="42" column="52" lean-forward="false" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataModel.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/analyse/session/src/main/scala/com/atguigu/session/DataModel.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="33">
+              <caret line="1" column="21" lean-forward="false" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CategorySortKey.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/analyse/session/src/main/scala/com/atguigu/session/CategorySortKey.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/analyse/session/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>SessionDetail</find>
+      <find>remove_random_prefix</find>
+      <find>concat_long_string</find>
+      <find>tmp_area_fullprod_click_count</find>
+      <find>String</find>
+      <find>;</find>
+      <find>utils</find>
+      <find>Administrator</find>
+      <find>SESSION_COUNT</find>
+      <find>PageSplitConvertRate</find>
+      <find>AdUserClickCount</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>wuyufei</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="https://github.com/hadoop-lsw/bigdata.git" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/commons/src/main/java/com/atguigu/commons/pool/PooledKafkaProducerAppFactory.scala" />
+        <option value="$PROJECT_DIR$/commons/src/main/java/com/atguigu/commons/constant/Constants.java" />
+        <option value="$PROJECT_DIR$/commons/src/main/java/com/atguigu/commons/constant/Constants.scala" />
+        <option value="$PROJECT_DIR$/commons/src/main/java/com/atguigu/commons/conf/ConfigurationManager.java" />
+        <option value="$MAVEN_REPOSITORY$/org/apache/commons/commons-configuration2/2.2/commons-configuration2-2.2.jar!/org/apache/commons/configuration2/builder/FileBasedConfigurationBuilder.class" />
+        <option value="$PROJECT_DIR$/commons/src/main/java/com/atguigu/commons/pool/KafkaStreaming.scala" />
+        <option value="$PROJECT_DIR$/commons/src/main/java/com/atguigu/commons/conf/ConfigurationManager.scala" />
+        <option value="$PROJECT_DIR$/commons/src/main/java/com/atguigu/commons/pool/PooledMySqlClientFactory.scala" />
+        <option value="$PROJECT_DIR$/commons/src/main/java/com/atguigu/commons/utils/Utils.scala" />
+        <option value="$PROJECT_DIR$/analyse/session/src/main/scala/com/atguigu/session/MockDataGenerate.scala" />
+        <option value="$PROJECT_DIR$/commons/src/main/scala/com/atguigu/commons/utils/DateUtils2.java" />
+        <option value="$PROJECT_DIR$/analyse/product/src/main/scala/com/atguigu/product/AreaTop3Product.scala" />
+        <option value="$PROJECT_DIR$/mock/src/main/scala/com/atguigu/mock/PooledKafkaProducerAppFactory.scala" />
+        <option value="$PROJECT_DIR$/analyse/advertising/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/analyse/advertising/src/main/resources/ad.sql" />
+        <option value="$PROJECT_DIR$/analyse/page/src/main/resources/page.sql" />
+        <option value="$PROJECT_DIR$/analyse/product/src/main/resources/product.sql" />
+        <option value="$PROJECT_DIR$/analyse/session/src/main/resources/session.sql" />
+        <option value="$PROJECT_DIR$/commons/src/main/resources/scriptFile.scala" />
+        <option value="$PROJECT_DIR$/mock/src/main/scala/com/atguigu/mock/KafkaProducerProxy.scala" />
+        <option value="$PROJECT_DIR$/mock/src/main/scala/com/atguigu/mock/MockRealtimeDataGenerate.scala" />
+        <option value="$MAVEN_REPOSITORY$/net/sf/json-lib/json-lib/2.4/json-lib-2.4-JDK15.jar!/net/sf/json/JSONObject.class" />
+        <option value="$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar!/scala/collection/immutable/List.scala" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/analyse/page/pom.xml" />
+        <option value="$PROJECT_DIR$/mock/src/main/scala/com/atguigu/mock/MockDataGenerate.scala" />
+        <option value="$PROJECT_DIR$/mock/src/main/scala/com/atguigu/mock/MockRealTimeData.scala" />
+        <option value="$PROJECT_DIR$/commons/src/main/scala/com/atguigu/commons/conf/ConfigurationManager.scala" />
+        <option value="$PROJECT_DIR$/commons/src/main/scala/com/atguigu/commons/constant/Constants.scala" />
+        <option value="$PROJECT_DIR$/commons/src/main/scala/com/atguigu/commons/model/DataModel.scala" />
+        <option value="$PROJECT_DIR$/commons/src/main/scala/com/atguigu/commons/pool/PooledMySqlClientFactory.scala" />
+        <option value="$PROJECT_DIR$/commons/src/main/scala/com/atguigu/commons/utils/Utils.scala" />
+        <option value="$PROJECT_DIR$/commons/src/main/resources/commerce.properties" />
+        <option value="$PROJECT_DIR$/analyse/advertising/src/main/scala/com/atguigu/stream/AdClickRealTimeStat.scala" />
+        <option value="$PROJECT_DIR$/analyse/advertising/src/main/scala/com/atguigu/stream/DataModel.scala" />
+        <option value="$PROJECT_DIR$/analyse/advertising/src/main/scala/com/atguigu/stream/JdbcHelper.scala" />
+        <option value="$PROJECT_DIR$/analyse/page/src/main/scala/com/atguigu/page/DataModel.scala" />
+        <option value="$PROJECT_DIR$/analyse/page/src/main/scala/com/atguigu/page/PageOneStepConvertRate.scala" />
+        <option value="$PROJECT_DIR$/analyse/product/src/main/scala/com/atguigu/product/AreaTop3ProductApp.scala" />
+        <option value="$PROJECT_DIR$/analyse/product/src/main/scala/com/atguigu/product/DataModel.scala" />
+        <option value="$PROJECT_DIR$/analyse/product/src/main/scala/com/atguigu/product/GroupConcatDistinctUDAF.scala" />
+        <option value="$PROJECT_DIR$/analyse/product/pom.xml" />
+        <option value="$PROJECT_DIR$/analyse/pom.xml" />
+        <option value="$PROJECT_DIR$/analyse/session/pom.xml" />
+        <option value="$PROJECT_DIR$/analyse/session/src/main/scala/com/atguigu/session/CategorySortKey.scala" />
+        <option value="$PROJECT_DIR$/analyse/session/src/main/scala/com/atguigu/session/DataModel.scala" />
+        <option value="$PROJECT_DIR$/analyse/session/src/main/scala/com/atguigu/session/SessionAggrStatAccumulator.scala" />
+        <option value="$PROJECT_DIR$/analyse/session/src/main/scala/com/atguigu/session/UserVisitSessionAnalyze.scala" />
+        <option value="$PROJECT_DIR$/mock/pom.xml" />
+        <option value="$PROJECT_DIR$/commons/pom.xml" />
+        <option value="$PROJECT_DIR$/analyse/advertising/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:/Software/Maven/apache-maven-3.3.9" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="commerce" type="b2602c69:ProjectViewProjectNode" />
+              <item name="commerce" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="SearchEverywhereHistoryKey" value="USERVIS&#9;null&#9;null" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/analyse/session/src/main/resources" />
+      <recent name="$PROJECT_DIR$/analyse/product/src/main/resources" />
+      <recent name="$PROJECT_DIR$/analyse/page/src/main/resources" />
+      <recent name="$PROJECT_DIR$/analyse/advertising/src/main/resources" />
+      <recent name="$PROJECT_DIR$/other/src/main/resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.atguigu.mock" />
+      <recent name="com.atguigu.commons.utils" />
+      <recent name="com.atguigu.commons.conf" />
+      <recent name="com.atguigu.commons.constant" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/analyse/advertising/src/main/resources" />
+      <recent name="$PROJECT_DIR$/commons/src/main/scala/com/atguigu/commons/model" />
+      <recent name="$PROJECT_DIR$/commons/src/main/resources" />
+      <recent name="$PROJECT_DIR$/commons/src/main/java/com/atguigu/commons/pool" />
+      <recent name="$PROJECT_DIR$/analyse/advertising/src/main/scala/com/atguigu/stream" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.AdClickRealTimeStat">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration name="AdClickRealTimeStat" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.stream.AdClickRealTimeStat" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="advertising" />
+      <envs />
+    </configuration>
+    <configuration name="AreaTop3ProductApp" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.product.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.product.AreaTop3ProductApp" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="product" />
+      <envs />
+    </configuration>
+    <configuration name="DateUtils" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.commons.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.commons.utils.DateUtils" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="commons" />
+      <envs />
+    </configuration>
+    <configuration name="MockRealtimeDataGenerate" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.mock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.mock.MockRealtimeDataGenerate" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="mock" />
+      <envs />
+    </configuration>
+    <configuration name="PageOneStepConvertRate" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.page.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.page.PageOneStepConvertRate" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="page" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Application.AreaTop3ProductApp" />
+      <item index="1" class="java.lang.String" itemvalue="Application.PageOneStepConvertRate" />
+      <item index="2" class="java.lang.String" itemvalue="Application.MockRealtimeDataGenerate" />
+      <item index="3" class="java.lang.String" itemvalue="Application.AdClickRealTimeStat" />
+      <item index="4" class="java.lang.String" itemvalue="Application.DateUtils" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.MockRealtimeDataGenerate" />
+        <item index="1" class="java.lang.String" itemvalue="Application.AdClickRealTimeStat" />
+        <item index="2" class="java.lang.String" itemvalue="Application.DateUtils" />
+        <item index="3" class="java.lang.String" itemvalue="Application.PageOneStepConvertRate" />
+        <item index="4" class="java.lang.String" itemvalue="Application.AreaTop3ProductApp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="99e38f6f-2c9b-41f8-850f-ac874e10366a" name="Default" comment="" />
+      <created>1508894892129</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1508894892129</updated>
+      <workItem from="1508894893802" duration="1476000" />
+      <workItem from="1508899581262" duration="311000" />
+      <workItem from="1508909580532" duration="3504000" />
+      <workItem from="1508990741098" duration="1381000" />
+      <workItem from="1509000546011" duration="77986000" />
+      <workItem from="1509340863812" duration="16629000" />
+      <workItem from="1509411694479" duration="28676000" />
+      <workItem from="1509497209977" duration="11150000" />
+      <workItem from="1509513581172" duration="15305000" />
+      <workItem from="1509542066935" duration="62000" />
+      <workItem from="1509670314880" duration="8053000" />
+      <workItem from="1509680487608" duration="5169000" />
+      <workItem from="1509694189862" duration="7234000" />
+      <workItem from="1516085856844" duration="12127000" />
+      <workItem from="1516147619699" duration="23871000" />
+      <workItem from="1516237476636" duration="5398000" />
+      <workItem from="1516578951691" duration="16527000" />
+      <workItem from="1516665754458" duration="6235000" />
+      <workItem from="1517294993210" duration="10876000" />
+      <workItem from="1517357091455" duration="13904000" />
+      <workItem from="1517445069911" duration="6647000" />
+      <workItem from="1517464323210" duration="15794000" />
+      <workItem from="1517531995442" duration="31583000" />
+      <workItem from="1517615821913" duration="8453000" />
+      <workItem from="1517708173214" duration="5473000" />
+      <workItem from="1517788284704" duration="684000" />
+      <workItem from="1517790592688" duration="724000" />
+      <workItem from="1518307589729" duration="1124000" />
+      <workItem from="1518310180098" duration="17296000" />
+      <workItem from="1518357682227" duration="1858000" />
+      <workItem from="1518388755840" duration="8222000" />
+      <workItem from="1518480392444" duration="19254000" />
+      <workItem from="1518653128611" duration="8685000" />
+      <workItem from="1518869288588" duration="7537000" />
+      <workItem from="1519028637696" duration="23201000" />
+      <workItem from="1519193540274" duration="3954000" />
+      <workItem from="1519262564208" duration="256000" />
+      <workItem from="1519263425114" duration="17876000" />
+      <workItem from="1519372998065" duration="5023000" />
+      <workItem from="1519431773140" duration="13306000" />
+      <workItem from="1519519679858" duration="9907000" />
+      <workItem from="1519560996790" duration="22000" />
+      <workItem from="1519561064810" duration="585000" />
+      <workItem from="1626704322577" duration="13050000" />
+    </task>
+    <task id="LOCAL-00001" summary="修改">
+      <created>1626879532575</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1626879532575</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="486388000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971016" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971016" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.5064378" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22639485" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.53985506" sideWeight="0.49574015" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32900944" sideWeight="0.49356222" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23497854" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15351813" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24946351" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.54800725" sideWeight="0.49574015" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="R Graphics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971016" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="R Packages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971016" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="46" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/net/sf/json-lib/json-lib/2.4/json-lib-2.4-jdk15.jar!/net/sf/json/JSONObject.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar!/scala/collection/immutable/List.scala" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.1.1/spark-sql_2.11-2.1.1-sources.jar!/org/apache/spark/sql/expressions/udaf.scala" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-catalyst_2.11/2.1.1/spark-catalyst_2.11-2.1.1-sources.jar!/org/apache/spark/sql/types/StructField.scala" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.1.1/spark-sql_2.11-2.1.1-sources.jar!/org/apache/spark/sql/package.scala" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/0.10.2.1/kafka-clients-0.10.2.1-sources.jar!/org/apache/kafka/common/serialization/StringDeserializer.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/0.10.2.1/kafka-clients-0.10.2.1.jar!/org/apache/kafka/common/serialization/StringDeserializer.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-configuration2/2.2/commons-configuration2-2.2-sources.jar!/org/apache/commons/configuration2/FileBasedConfiguration.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-configuration2/2.2/commons-configuration2-2.2-sources.jar!/org/apache/commons/configuration2/builder/fluent/Parameters.java" />
+    <entry file="file://$PROJECT_DIR$/analyse/page/page.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="32" lean-forward="false" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analyse/advertising/src/main/resources/ad.sql" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-configuration2/2.2/commons-configuration2-2.2-sources.jar!/org/apache/commons/configuration2/PropertiesConfiguration.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-configuration2/2.2/commons-configuration2-2.2-sources.jar!/org/apache/commons/configuration2/builder/FileBasedConfigurationBuilder.java" />
+    <entry file="file://$PROJECT_DIR$/analyse/page/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="52" column="81" lean-forward="false" selection-start-line="52" selection-start-column="81" selection-end-line="52" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-pool2/2.4.2/commons-pool2-2.4.2-sources.jar!/org/apache/commons/pool2/BasePooledObjectFactory.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-pool2/2.4.2/commons-pool2-2.4.2.jar!/org/apache/commons/pool2/BasePooledObjectFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mock/src/main/scala/com/atguigu/mock/MockRealtimeDataGenerate.scala" />
+    <entry file="file://$PROJECT_DIR$/mock/src/main/scala/com/atguigu/mock/KafkaProducerProxy.scala" />
+    <entry file="file://$PROJECT_DIR$/mock/mock.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons/src/main/resources/commerce.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="20" lean-forward="false" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons/src/main/resources/commerce[data].sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="22" column="29" lean-forward="false" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analyse/product/src/main/resources/product.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="32" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mock/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="5" lean-forward="false" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mock/src/main/scala/com/atguigu/mock/MockDataGenerate.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="29" column="7" lean-forward="false" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mock/src/main/scala/com/atguigu/mock/MockRealTimeData.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="17" column="7" lean-forward="false" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons/src/main/scala/com/atguigu/commons/conf/ConfigurationManager.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="13" column="7" lean-forward="false" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons/src/main/scala/com/atguigu/commons/constant/Constants.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons/src/main/scala/com/atguigu/commons/model/DataModel.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="3" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons/src/main/scala/com/atguigu/commons/pool/PooledMySqlClientFactory.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="5" lean-forward="false" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analyse/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analyse/product/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="5" lean-forward="false" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analyse/product/src/main/scala/com/atguigu/product/AreaTop3ProductApp.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="21" column="7" lean-forward="false" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analyse/product/src/main/scala/com/atguigu/product/DataModel.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="1" column="21" lean-forward="false" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analyse/product/src/main/scala/com/atguigu/product/GroupConcatDistinctUDAF.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="13" column="6" lean-forward="false" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analyse/page/src/main/scala/com/atguigu/page/DataModel.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="1" column="21" lean-forward="false" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analyse/page/src/main/scala/com/atguigu/page/PageOneStepConvertRate.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="30" column="7" lean-forward="false" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analyse/advertising/advertising.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analyse/advertising/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analyse/advertising/src/main/scala/com/atguigu/stream/AdClickRealTimeStat.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="25" column="7" lean-forward="false" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analyse/session/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analyse/session/src/main/scala/com/atguigu/session/DataModel.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="1" column="21" lean-forward="false" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analyse/session/src/main/scala/com/atguigu/session/CategorySortKey.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analyse/session/src/main/scala/com/atguigu/session/SessionAggrStatAccumulator.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="42" column="52" lean-forward="false" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons/src/main/scala/com/atguigu/commons/utils/Utils.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="224" column="6" lean-forward="false" selection-start-line="224" selection-start-column="6" selection-end-line="224" selection-end-column="6" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analyse/session/src/main/scala/com/atguigu/session/UserVisitSessionAnalyze.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="865" column="5" lean-forward="false" selection-start-line="865" selection-start-column="5" selection-end-line="865" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analyse/advertising/src/main/scala/com/atguigu/stream/DataModel.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="3" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analyse/advertising/src/main/scala/com/atguigu/stream/JdbcHelper.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="33" lean-forward="false" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigdata/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="Copyright.UI">
+        <settings>
+          <last-edited>wuyufei</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.11.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>mock</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
